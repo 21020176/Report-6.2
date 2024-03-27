@@ -211,4 +211,14 @@ Example scripts:
 # Training with Unet2+ models
 Using the same scripts as the ESFPNet based model.
 
+# Training Cancer prediction models
+
+Use `cancer_prediction_models.ipynb` notebook to train joint model of ESFPNet baseline.\
+The script requires the following input parameters:
++ `Dataset csv file` (`cancer_data_TTKV_final.csv`)
+
+Example scripts:
+```bash
+python cancer_prediction_models.py --model lr --dataset ./cancer_data_TTKV_final.csv
+```
 
