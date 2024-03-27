@@ -213,7 +213,7 @@ Using the same scripts as the ESFPNet based model.
 
 # Training Cancer prediction models
 
-Use `cancer_prediction_models.py` notebook to train joint model of ESFPNet baseline.\
+Use `cancer_prediction_models.py` file to Cancer prediction models.\
 The script requires the following input parameters:
 + `Dataset csv file` (`cancer_data_TTKV_final.csv`)
 
